@@ -43,7 +43,7 @@ M.pro = {
     base7 = '#B1B1B1',
     border = '#A1B5B1',
     brown = "#504945",
-    white = '#FFF1F3',
+    white = '#EAE8C1',
     grey = '#72696A',
     black = '#000000',
     pink = '#FF6188',
@@ -640,19 +640,19 @@ M.load_plugin_syntax = function(palette)
 			bg = palette.base3,
 		},
 		LspSagaDocTruncateLine = {
-			fg = palette.green,
+			fg = palette.white,
 			bg = palette.base3,
 		},
 		LspSagaShTruncateLine = {
-			fg = palette.green,
+			fg = palette.white,
 			bg = palette.base3,
 		},
 		LspSagaCodeActionTruncateLine = {
-			fg = palette.green,
+			fg = palette.white,
 			bg = palette.base3,
 		},
 		LspSagaCodeActionContent = {
-			fg = palette.yello,
+			fg = palette.green,
 			bg = palette.base3,
 		}
     }
