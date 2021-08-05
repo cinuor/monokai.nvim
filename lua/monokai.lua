@@ -598,7 +598,63 @@ M.load_plugin_syntax = function(palette)
         },
         TelescopePromptBorder = {
             fg = palette.border
-        }
+        },
+		CompeDocumentation = {
+			fg = palette.white,
+			bg = palette.base4,
+		},
+		CompeDocumentationBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspFloatWinNormal = {
+			fg = palette.white,
+			bg = palette.base3,
+		},
+		LspSagaHoverBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaRenameBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaSignatureHelpBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaCodeActionBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaLspFinderBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaDefPreviewBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		LspSagaAutoPreview = {
+			fg = palette.yellow,
+			bg = palette.base3,
+		},
+		LspSagaDocTruncateLine = {
+			fg = palette.green,
+			bg = palette.base3,
+		},
+		LspSagaShTruncateLine = {
+			fg = palette.green,
+			bg = palette.base3,
+		},
+		LspSagaCodeActionTruncateLine = {
+			fg = palette.green,
+			bg = palette.base3,
+		},
+		LspSagaCodeActionContent = {
+			fg = palette.yello,
+			bg = palette.base3,
+		}
     }
 end
 
@@ -623,7 +679,7 @@ M.setup = function(palette)
                 for group, colors in pairs(plugin_syntax) do
                     M.highlight(group, colors)
                 end
-                async_load_plugin:close()
+               async_load_plugin:close()
             end
         )
     )
