@@ -77,7 +77,7 @@ M.load_syntax = function(palette)
             bg = palette.none,
         },
         NormalFloat = {
-            fg = palette.none,
+            fg = palette.green,
             bg = palette.base3,
         },
         Pmenu = {
@@ -531,6 +531,26 @@ M.load_plugin_syntax = function(palette)
         TSFloat = {
             fg = palette.purple
         },
+		TelescopeBorder = {
+			fg = palette.orange,
+			bg = palette.base3,
+		},
+		TelescopeNormal = {
+			fg = palette.grey,
+		},
+		TelescopeSelection = {
+			fg = palette.white,
+			style = 'bold',
+		},
+		TelescopeSelectionCaret = {
+			fg = palette.green,
+		},
+		TelescopeMultiSelection = {
+			fg = palette.pink,
+		},
+		TelescopeMatching = {
+			fg = palette.red,
+		},
         dbui_tables = {
             fg = palette.white,
         },
@@ -592,12 +612,6 @@ M.load_plugin_syntax = function(palette)
             fg = palette.white,
             bg = palette.none,
             style = 'NONE',
-        },
-        TelescopeBorder = {
-            fg = palette.border
-        },
-        TelescopePromptBorder = {
-            fg = palette.border
         },
 		CompeDocumentation = {
 			fg = palette.white,
