@@ -554,6 +554,34 @@ M.load_plugin_syntax = function(palette)
         dbui_tables = {
             fg = palette.white,
         },
+	CocErrorSign = {
+        	fg = palette.red,
+		bg = palette.base2,
+	},
+	CocWarningSign = {
+        	fg = palette.yellow,
+		bg = palette.base2,
+	},
+	CocInfoSign = {
+        	fg = palette.white,
+		bg = palette.base2,
+	},
+	CocHintSign = {
+        	fg = palette.aqua,
+		bg = palette.base2,
+	},
+	CocErrorFloat = {
+        	fg = palette.red,
+	},
+	CocWarningFloat = {
+		fg = palette.yellow,
+	},
+	CocInfoFloat = {
+		fg = palette.white,
+	},
+	CocHintFloat = {
+		fg = palette.aqua,
+	},
         LspDiagnosticsSignError = {
             fg = palette.red,
         },
