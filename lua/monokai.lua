@@ -77,7 +77,7 @@ M.load_syntax = function(palette)
             bg = palette.none,
         },
         NormalFloat = {
-            fg = palette.green,
+            fg = palette.white,
             bg = palette.base3,
         },
         Pmenu = {
