@@ -37,8 +37,8 @@ M.pro = {
     base1 = '#211F22',
     base2 = '#26292C',
     base3 = '#2E323C',
-    base4 = '#333842',
-    base5 = '#4d5154',
+    base4 = '#444842',
+    base5 = '#5d5154',
     base6 = '#72696A',
     base7 = '#B1B1B1',
     border = '#A1B5B1',
@@ -170,7 +170,7 @@ M.load_syntax = function(palette)
         },
         SignColumn = {
             fg = palette.white,
-            bg = palette.base2,
+            bg = palette.base3,
         },
         StatusLine = {
             fg = palette.base7,
